@@ -5,8 +5,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const VERIFY_TOKEN = 'massimobot'; // Este es tu token de verificación
-const PAGE_ACCESS_TOKEN = 'TU_PAGE_ACCESS_TOKEN'; // ← Reemplaza con el token de tu página
-const OPENAI_API_KEY = 'TU_OPENAI_API_KEY'; // ← Reemplaza con tu clave de OpenAI
+const PAGE_ACCESS_TOKEN = 'EAALpELnYP5gBO7ikjtwBhcIBfVnZA78LpLOfRJuEw30fZBXfSjbWfU4q8v9naoNZBsetnpKCCZBNBbKf76kv92rkVriWA6kZBmd6SSv872tZAFQfqtoQBHxrHYZCZCZB5HZCJpgogabxj4KeLObMiX7ao4XZCvOWqXs5RhGqpD1Ui7I6BDuHGffZCNo5W0yFLqFiohYHm0aV552G'; // ← Reemplaza con el token de tu página
+const OPENAI_API_KEY = '	
+sk-...ugsA'; // ← Reemplaza con tu clave de OpenAI
 
 app.use(bodyParser.json());
 
