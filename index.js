@@ -1,3 +1,6 @@
+require('dotenv').config();
+
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const express = require("express");
 const bodyParser = require("body-parser");
 const axios = require("axios");
